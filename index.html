@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Shivani Moghe, Aspiring Data Analyst.">
+    <meta name="author" content="Shivani Moghe">
+    <title>Shivani Moghe - Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #f4f4f9;
+            background-color: #121212;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: linear-gradient(135deg, #212121, #121212);
+            color: #fff;
+            padding: 80px 10%;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #333;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        nav {
+            background: #1e1e1e;
+            padding: 10px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        nav .navbar-nav .nav-link {
+            font-weight: bold;
+            color: #f4f4f9;
+            transition: color 0.3s;
+        }
+        nav .navbar-nav .nav-link:hover {
+            color: #90caf9;
+        }
+        .section {
+            padding: 60px 10%;
+            background-color: #121212;
+        }
+        .section h2 {
+            color: #90caf9;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .project {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+        }
+        .project h3 {
+            color: #f4f4f9;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        .project p {
+            color: #b0bec5;
+            font-size: 0.9rem;
+        }
+        footer {
+            background-color: #1e1e1e;
+            color: #b0bec5;
+            text-align: center;
+            padding: 20px 10%;
+        }
+        footer p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #90caf9;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="profile-pic.png" alt="Shivani Moghe">
+    <h1>Shivani Moghe</h1>
+    <p>Aspiring Data Analyst | Passionate About Insights</p>
+    <div class="mt-3">
+        <a href="#contact" class="btn btn-outline-light btn-sm">Hire Me</a>
+        <a href="https://drive.google.com/file/d/1OCcFAWR4jz6G9xJNxGnPvb_mkORC1pPi/view?usp=sharing" class="btn btn-light btn-sm" target="_blank">Download Resume</a>
+    </div>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p class="text-center">Hi, I'm Shivani Moghe, an aspiring data analyst currently pursuing a B.Tech in Artificial Intelligence and Data Science from Vishwakarma Institute of Information Technology (CGPA: 8.93). I have a strong foundation in data analysis, machine learning, and visualization, and I aim to drive impactful decisions through data-driven insights.</p>
+</section>
+
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project">
+            <h3>Loan Eligibility Prediction</h3>
+            <p>Developed a model to predict loan eligibility using factors like income, credit history, and loan amount, streamlining risk assessment for lenders.</p>
+        </div>
+        <div class="project">
+            <h3>Sales Dashboard (PowerBI)</h3>
+            <p>Created a dashboard to analyze sales trends. Insights included the West region contributing 33% of sales, preferred shipping methods, and key states driving revenue (California, New York, Texas).</p>
+        </div>
+        <div class="project">
+            <h3>Energy Consumption Prediction</h3>
+            <p>Analyzed household data using feature selection and Random Forest algorithm, achieving a 91.8% accuracy rate in predicting energy usage patterns.</p>
+        </div>
+        <div class="project">
+            <h3>AyuPredict - A Disease Prediction Model</h3>
+            <p>Designed a healthcare system to predict diseases and recommend Ayurvedic treatments, enhancing accessibility in remote areas. Published in IJARSCT.</p>
+        </div>
+    </div>
+</section>
+
+<section id="resume" class="section">
+    <h2>Resume</h2>
+    <p class="text-center">You can download my resume <a href="https://drive.google.com/file/d/1OCcFAWR4jz6G9xJNxGnPvb_mkORC1pPi/view?usp=sharing" target="_blank">here</a>.</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p class="text-center">Feel free to reach out via email or connect with me on LinkedIn.</p>
+    <p class="text-center">Email: <a href="mailto:shivanirajshri@gmail.com">shivanirajshri@gmail.com</a></p>
+    <p class="text-center">LinkedIn: <a href="https://www.linkedin.com/in/shivani-moghe-a06472248/" target="_blank">linkedin.com/in/shivani-moghe</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Shivani Moghe. All Rights Reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
